@@ -35,7 +35,7 @@ function setup() {
 	box2 = new Box(250,600,20,100)
 	box3 = new Box(450,600,20,100)
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:3, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.4, isStatic:true});
 	World.add(world, packageBody);
 	
 
